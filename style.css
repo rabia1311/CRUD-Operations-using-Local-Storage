@@ -1,0 +1,43 @@
+body{
+    background-color: midnightblue;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-color: white;}
+td{
+        padding: 8px 16px;
+    }
+    tr{
+        background-color: aquamarine;
+        color: black;
+        text-align: center;
+        font-size: large;
+    }
+.col{
+    font-size: 22px;
+    font-weight: bold;
+  background-color:chartreuse;
+  color: black;
+}
+input{
+    font-size: 22px;
+
+    
+}
+.local{
+    display: flex;
+    justify-content: center;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+}
+
+  
+
+  
+  

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crud_operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+   <fieldset>
+    <br>
+   <legend><h1>FORM</h1></legend> 
+    <form id="form">
+        <input type="text"placeholder="Name" id="name" name="name">
+        <br>
+        <br>
+        <input type="text"placeholder="Job" id="job" name="job">
+        <br>
+        <br>
+        <input type="text"placeholder="Exp" id="exp" name="exp">
+        <br><br>
+        <input type="button" value="Submit here" id="btn"onclick="Submit()">
+        <input type="reset" value="Reset">
+    </form>
+   </fieldset>
+   
+  
+    </div>
+    <section>
+        <div id="msg" class="msg"></div>
+    </section>
+    
+    <div class="local">
+   <fieldset>
+    <legend><h1>DATA FROM LOCAL STORAGE </h1></legend>
+    <table border="2" id="table">
+        <tr>
+            <td class="col"><h3>Name</h3></td>
+            <td class="col"><h3>Job</h3></td>
+            <td class="col"><h3>Exp</h3></td>
+            <td class="col"><h3>Action</h3></td>
+
+            
+        </tr>
+    </table>
+   </fieldset>
+
+</div>
+<input type="button"name="button"value="Back"onclick=history.go(-1)>
+</body>
+<script src="script.js"></script>
+</html>
